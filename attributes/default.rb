@@ -1,8 +1,8 @@
 set[:java][:install_flavor] = 'openjdk'
 set[:java][:jdk_version] = '7'
 
-set[:elasticsearch][:version] = '1.2.2'
-set[:elasticsearch][:filename] = "elasticsearch-1.2.2.tar.gz"
+set[:elasticsearch][:version] = '1.7.1'
+set[:elasticsearch][:filename] = "elasticsearch-1.7.1.tar.gz"
 set[:elasticsearch][:download_url] = [
     node[:elasticsearch][:host],
     node[:elasticsearch][:repository],
