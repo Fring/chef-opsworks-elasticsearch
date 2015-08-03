@@ -14,6 +14,9 @@ set[:elasticsearch][:cluster][:name] = 'logstash'
 set[:elasticsearch][:plugins]['karmi/elasticsearch-paramedic'] = {}
 set[:elasticsearch][:plugins]['royrusso/elasticsearch-HQ'] = {}
 set[:elasticsearch][:plugins]['elasticsearch/elasticsearch-cloud-aws']['version'] = '2.7.0'
+set[:elasticsearch][:plugins]['lmenezes/elasticsearch-kopf'] = {}
+set[:elasticsearch][:plugins]['lukas-vlcek/bigdesk'] = {}
+set[:elasticsearch][:plugins]['jettro/elasticsearch-gui'] = {}
 
 set[:elasticsearch][:discovery][:type] = 'ec2'
 set[:elasticsearch][:discovery][:zen][:ping][:multicast][:enabled] = false
